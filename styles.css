@@ -34,7 +34,10 @@ nav a:hover {
 }
 
 section {
-    margin-left: 35vw;
+    margin-left: 30vw;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    text-align: justify;
 }
 
 header {
@@ -42,7 +45,7 @@ header {
     font-size: 2em;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     nav {
         padding: 1vw;
         margin: 0 auto;
