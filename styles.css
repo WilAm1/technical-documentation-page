@@ -1,11 +1,17 @@
 nav {
     position: fixed;
-    top: 0;
+    top: 2vw;
     left: 2vw;
+}
+
+p,
+li {
+    color: #4d4e53;
 }
 
 nav ul {
     border: solid 1px black;
+    border-radius: 5px;
     height: 10%;
     overflow-y: visible;
     overflow-x: auto;
@@ -28,10 +34,11 @@ nav a:hover {
 }
 
 section {
-    margin-left: 30vw;
+    margin-left: 35vw;
 }
 
 header {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
 }
 
@@ -44,5 +51,6 @@ header {
     }
     section {
         margin: auto;
+        width: 90%;
     }
 }
